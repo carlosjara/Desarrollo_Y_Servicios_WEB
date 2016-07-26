@@ -1,0 +1,76 @@
+Desarrollo y Servicio WEB
+
+Juan Camilo Rada
+jcamilirada@gmail.com
+
+Uso de lenguaje de etiqueta.
+
+Objetivos del curso.
+	identificar la estructura y componente tecnologicos de una aplicacion
+	describir las tecnicas y estandares involucrados en su desarrollo y administracion
+	Reconocer los principios en el diseño (Tecnoligias, tecnicas, como pensar en los objetivos)
+	Herramientas
+	Identificar aspectos eticos de la web.
+
+
+Temas del curso
+HTML, Java Script, Css, Http
+
+Front- Capa de presentacion, HTML JS
+Back- Algoritmos, base de datos, JS
+
+**CLASE 1 (WEB)**
+
+Objetivo: Como funciona una pagina Web
+
+Historia HTML
+	HyperText Markup Language
+	Berners-Lee
+        En los 90s idea para compartir documentos, por falta de protocolo para compartir (Lenguaje de Etiqueta)
+	Etiqueta representan datos, palabras que representa algo particular	
+	Lenguajes, XML se puede extender
+		   Tex (Latex)
+
+	WYSIWYG What you see what you get, editor o programa que permite al desarrollador mostrar lo que quiere mientras se va mostrando el resultado (limitaciones y algo malo)
+		Pueden existir mejores formas de escribir
+
+	HTTP 
+	Protocolo de comunicacion que permite, paso de etiquetas
+
+	Especificaciones [Pagina] statefull, conexiones cerradas no se escuchan todo el tiempo (Pregunta respuesta y se termina la conversacion)
+				  stateless, no se sabe con quien se esta hablando
+
+	Cookies, Identificacion de conexion con servidor.
+
+	Visor de HTML
+
+
+COMO FUNCIONA INTERNET
+	HTTP, Web Browser, Web Server.
+
+	La especificacion Http, para pode decir cosas, entre esas METODOS.
+
+	METODOS -> Tipos de mensajes que se pueden enviar
+	GET,PUT,POST,DELETE,TRACE,CONNECT
+
+	HEADERS -> Sirven para mostrar opciones importante
+	
+	Funcionamiento. el usuario pide por medio de Headers  las solicitudes a un servidor con los metodos
+	
+
+	(web Brower)NAVEGADORES, Pintar HMTL
+	toma de decisiones, despues de la interpretacion del codigo HTML [ir a otra pagina, entre otros]
+
+	(web Server)Servidores.
+
+
+	FUNCIONAMIENTO.
+	entra a la url, el browser mira el ip de la url, el browser pide la pagina y se la entrega al usuario
+
+------------- ** ----------
+	Etiquetas IMPORTNATES
+
+	<!DOCTYPEhtml> Le dice al navegador el tipo de conexion que se hara
+	<html> inicia el documento
+	<head> contiene la informacion de la pagina descriptiva
+	<body> declara el cuerpo del documento
