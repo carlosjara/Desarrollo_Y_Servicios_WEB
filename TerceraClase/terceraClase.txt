@@ -1,0 +1,40 @@
+description list
+muestran simplemente texto. 
+-------
+Comentarios <!---->
+
+--------------------------------------------
+CSS
+--------------------------------------------
+Funciona, teniendo el selector y la declaracion. El selector determina a quien se le hace el estilo, y la declaracion muestra las caracteristicas del estilo mostradas.
+
+Propiedades y Valores abiertos como tamaños y los cerrados som como el tipo de letra.
+
+Se pueden hacer estilo para varios elementos.
+
+css se llama como un link externo, declarado en el HEAD
+<link rel="sylesheet" type="text/css" href="style.css">
+
+Tipos de elementos,
+
+En block, tratan de ocupar todo lo posible,
+En Inline, se toman lo necesario para poder mostrarese.
+
+Existen varias reglas para poder asociar los estilo.
+	Si dos reglas son las mismas se aplica la ultima. al mismo selector
+	Si no son iguales, se aplica la mas especifica.
+	!important -- indica que la regla es la mas grande para poder aplicar. [puede ser problematico].
+
+Modelos de colores.
+RBG{#,#,#}
+HEX{#hex}
+Names{}
+
+Estilo de la fuente.
+Formatos que determinan tamaños, tipo de letra relativo. EM, % [ej. 2Em Em = 16 * 2], Px [punto], Pt[punto] 
+
+----------------------------------------------------------------------------------------------------------
+CSS ETIQUETAS
+
+color, background-color,font-family (tipo de letra), font-style, font-transform (uppercase,lowercase). text-align (left,right,center,justify)
+
