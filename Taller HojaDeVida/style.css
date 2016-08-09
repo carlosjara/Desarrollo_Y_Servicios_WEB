@@ -1,0 +1,63 @@
+
+html, body {
+    width: 100%;
+    font-family: "Open Sans";
+    text-transform: capitalize;
+}
+table {
+    margin: 0 auto;
+}
+
+h1{
+	color:blue;
+	  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+table.miFormato tr td { 
+	font-size: 13px;
+	margin: 0 auto;
+	 }
+ #correo{
+	text-transform: lowercase;
+}
+/*tr:hover {background-color: #f5f5f5 }*/
+button:hover, button:active {
+    background-color: #035CB0;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #111111;
+}
+a#correo:hover{ color: #035CB0}
+button {
+	text-transform: capitalize;
+    color: #111111;
+    padding: 10px;
+    margin-right:0.5%;
+	margin: 0 auto;
+	text-decoration: none;
+}
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 auto
+  position: relative;
+  
+  /*Font*/
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: center;
+  
+  /*Borders - (Optional)*/
+  border-left: 15px solid #035CB0;
+  border-right: 2px solid #035CB0;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
