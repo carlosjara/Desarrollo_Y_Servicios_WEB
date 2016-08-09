@@ -1,0 +1,50 @@
+Clase 9/08/2016
+
+Se trabajará la tematica referente a Layout y como poder sacar una estructura para la pagina en css
+
+Como estructurar cualquier pagina
+
+Review
+Block ocupan todo el ancho, inline se adapta al contenido
+
+Block <h1> crece todo lo que pueda, si hay dos block uno se pone bajo al otro.
+Inline <p> se adapta al contenido.
+
+[Color de una palabra en particular]. existen comodines para estilos particulares, o agruparlos pero no con uno logico. pero no necesariamente.
+
+SELECTORES
+span.class#id -- Que tengan ese id con esa clase y sean span
+
+span .class - Todos los que tengan esa clase y sean span 
+
+---COMODINES---
+
+SPAN -- No tiene significado sintactico ni semantico. tiene Title,Id,Class,Style. pero no se ve.
+		este se adapta a los elementos inline
+
+DIV -- No tienen significado ni es visible, tiene todas los atributos
+
+-- BOXING MODEL --
+todos los elementos son como unas cajas y tienen elementos
+1.Margenes 	[margin]
+2-Bordes	 	[border]
+3.Dimensiones	[padding]
+4.Mostrar/Ocultar
+
+Margen, con respecto a otros elementos externos, Paddind el elemento contenido con el borde y el borde lo muestra.
+
+En boxing existe el comodin que se asegura que se ajusten las medidas (elementos) previamente mantenidos.
+
+--- Margin & Padding ---
+se pueden poner de tres formas [3] (1) left|right|top|bottom (2) cuatros valores [# # # #] (3) dos valores arrbia y abajo, izquierda y derecha [# #] 
+ 
+-- bordes --
+se pueden ponder bordes width, style, color
+
+-- FLOAT --
+ubicaicon en la pagina float:left|right clear: both
+Se ubican uno al lado del otro. el clear no deja que otro se monte sobre ese.
+
+--------
+Manejo frameworks para hacer grids 
+960.gs

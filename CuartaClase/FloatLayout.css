@@ -1,0 +1,35 @@
+body{
+
+}
+div#main{
+	width: 1028px;
+	height: 100%;
+	margin: auto;
+}
+div#header{
+	clear: both;
+	border-style: solid;
+	text-align: center;
+
+}
+div#leftBar{
+	width: 20%;
+	float: left;
+	border-style: solid;
+	text-align: center;
+	text-align: justify;
+	padding: 10px
+}
+div#rightBar{
+	width: 20%;
+	float: right;
+	border-style: solid;
+	text-align: center;
+	text-align: justify;
+	padding: 10px
+}
+div#footer{
+	clear: both;
+	border-style: solid;
+	text-align: center;
+}
