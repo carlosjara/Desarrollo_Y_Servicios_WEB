@@ -28,6 +28,14 @@ figure img {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
+a#cuentas{
+	text-decoration: none;
+}
+a:hover{color: #035CB0}
+a#cuentasGit{
+		text-transform: uppercase;
+		text-decoration:none;
+}
 
 h1{
 	  color:blue;
@@ -40,13 +48,9 @@ h1{
 h2{
 	text-align: left;
 	border-bottom: 3px solid #035CB0; 
-}
-h2{
 	text-transform: capitalize;
 }
-td:first_letter {
-	text-transform: capitalize;
-}
+
 /*selector de clase*/
 table.miFormato tr td { 
 	font-size: 13px;
@@ -56,7 +60,9 @@ table.miFormato tr td {
  #correo{
 	text-transform: lowercase;
 }
-
+td#Carrera:first-letter{
+	text-transform: uppercase;
+}
 td.InfoCont {
 	text-align:center;
 }
@@ -85,12 +91,6 @@ td.indice a {
 td.indice:hover, td.indice:active {
 	background-color: #1E90FF;
 }
-a#cuentas{
-	text-decoration: none;
-}
-
-a:hover{color: #035CB0}
-
 
 blockquote{
   display:block;
@@ -123,11 +123,11 @@ p#PerfilProfesional{
   	margin-right: 60pt
 }
 
-p::first_letter{
+p::first-letter{
 	text-transform: uppercase;
 }
 
-li:first_letter{ text-transform: uppercase; }
+li:first-letter{ text-transform: uppercase; }
 
 
 li,dt {
