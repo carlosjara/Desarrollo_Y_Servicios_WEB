@@ -1,15 +1,21 @@
+<!--
+	Archivo: HojaDeVida.Html;
+	Autor: Carlos Jaramillo;
+	Descripcion: Estructura de pagina web, hoja de vida;
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Carlos Enrique Jaramillo Aros [Hoja De VIDA]</title>
 </head>
 <body>
 <hr>
-<table class="miFormato">
+<table class="miFormato"><a name="info"></a>
 	<tr>
-		<th><a href="#" ><figure><img src="Carlos.png" alt="Foto Hoja De Vida" width="180em"" height="180em"></figure></a></th>
+		<th><a href="#" ><figure><img id="imagen" src="img/Carlos.png" alt="Foto Hoja De Vida"></figure></a></th>
 	</tr>
 	<tr>
 		<th><h1>carlos enrique jaramillo aros</h1></th>
@@ -35,7 +41,6 @@
 	<tr>
 		<td class="InfoCont"><a id="cuentasGit" href="http://github.com/carlosjara/">gitHub / </a><a id="cuentasGit" href="escher.javerianacali.edu.co:8000/u/cjaramillo">gitLab</a></td>
 	</tr>
-	<a name="info"></a>
 </table>
 <hr>
 <h2>indice</h2>
@@ -54,28 +59,34 @@
 </blockquote>
 
 <h2>perfil profesional<a name="perfil"></a></h2>
-<p class="Perfil" id="PerfilProfesional">estudiante de Ingeniería de Sistemas y Computación (Octavo semestre) en la <a href="http://www.puj.edu.co"><strong>Pontificia Universidad Javeriana</strong></a>. Énfasis en  Computación Orientada a la red y Animación y Sistemas Interactivos. Interesado en  las áreas de diseño y administración de bases de datos, desarrollo de software,  desarrollo de aplicaciones móviles y videojuegos. Líder, Pro-activo, disciplinado, con habilidades para trabajar en equipo y proponer nuevas ideas de solución, capaz de alcanzar los resultados esperados en labores asignadas y gran interés por seguir adquiriendo nuevos conocimientos, con conocimientos en C, C++, Python, SQL, Java, Excel Avanzado</p>
+<p class="Perfil" id="PerfilProfesional">estudiante de Ingeniería de Sistemas y Computación (Octavo semestre) en la <a href="http://www.puj.edu.co"><strong>Pontificia Universidad Javeriana</strong></a>. Énfasis en  Computación Orientada a la red y Animación y Sistemas Interactivos. Interesado en  las áreas de diseño y administración de bases de datos, desarrollo de software,  desarrollo de aplicaciones móviles y videojuegos. Líder, Pro-activo, disciplinado, con habilidades para trabajar en equipo y proponer nuevas ideas de solución, capaz de alcanzar los resultados esperados en labores asignadas y gran interés por seguir adquiriendo nuevos conocimientos.<br>
+Con conocimientos en:
+<ol class="OlLenguajes">
+	<li>C</li>
+	<li>C++</li>
+	<li>Python</li>
+	<li>SQL</li>
+	<li>Java</li>
+	<li>Excel Avanzado</li>
+</ol>
+</p>
 <h2>proyectos destacados<a name="proyectos"></a></h2>
-<ol type="I">
+<ol class="OlProyectos">
 	<li>preservando ando</li>
-		<ul>
+		<ul class="OlProyectosInter">
 			<li>adelantar investigación en temas de interés para el <a href="http://cic.puj.edu.co/wiki/doku.php?id=grupos:destino:destino#grupo_de_investigacion_destino"><em>Grupo de investigación Destino</em></a> sobre el proyecto inter-disciplinario de un video juego para la concientización sobre el cuidado de la laguna de Sonso y animales en peligro de extinción de los niños de Sonso Valle del cauca.</li>
 		</ul>
 	<li>gswitch/case</li>
-		<ul>
+		<ul class="OlProyectosInter">
 			<li>adelantar investigación en temas relacionados con la aplicación de Gswitch/Case (Extencion de Switch/Case) al lenguaje C++ modificando el compilador Clang por ingeniería inversa.</li>
 		</ul>
 </ol>	
 <h2>estudios<a name="estudios"></a></h2>
-<ol type="I">
-	<li>ingeniería de sistemas y computación</li>
-		<ul>
-			<li>pontificia universidad javeriana cali [octavo semestre]</li>
-		</ul>
-	<li>bachiller académico</li>
-		<ul>
-			<li>institución educativa panebianco americano</li>
-		</ul>
-</ol>
+<dl class="OlEstudios">
+	<dt>ingeniería de sistemas y computación:</li>
+		<dd>pontificia universidad javeriana cali [octavo semestre]</dd>
+	<dt>bachiller académico:</dt>
+		<dd>institución educativa panebianco americano</dd>
+</dl>
 </body>
 </html>
