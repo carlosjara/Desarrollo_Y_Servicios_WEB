@@ -1,0 +1,31 @@
+h2{
+	padding: 1%
+}
+body{
+	margin: 10%
+}
+
+div{
+	margin: auto;
+	padding: auto;
+}
+div#section1{
+	background: #B7FF00;
+	border: solid;
+	margin: 5%
+}
+div#section2{
+	background: #09FF00;
+	border: solid;
+	margin: 5%
+}
+div#section3{
+	background: #00FF49;
+	border: solid;	
+	margin: 5%
+}
+div#section4{
+	background: #038427;
+	border: solid;	
+	margin: 5%
+}

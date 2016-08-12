@@ -1,0 +1,22 @@
+img{
+	height: 20%;
+	width: 20%;
+}
+
+img#cyborg {
+	float: left;
+}
+img#flash {
+	float: right;
+}
+
+div#section1{
+	margin: 5%
+}
+div#section2{
+	margin: 5%
+}
+h2:first-letter{
+	clear: both;
+	text-transform: uppercase;	
+}
