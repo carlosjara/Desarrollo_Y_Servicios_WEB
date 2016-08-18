@@ -1,0 +1,33 @@
+Clase sexta. Desarrollo Web
+
+Repaso.
+Instalar nodejs, tiene plugs javascript
+instalar grunt para hacer tareas
+
+dos formas... npm install [nombre depencia]
+			  npm install -g [nombre dependencia] //lo instala de manera global
+
+npm install <nombre paquete> --save y --save-dev 
+la diferencia entre estos dos es que uno lo agrega para herramientas de desarrollo. y el otro no.
+
+Los pasos de instalacion despues de instalar Nodejs
+es en el terminal install 
+npm init y llenar datos.
+npm install grunt --save-dev
+npm install grunt-contrib-connect --save-dev
+npm install grunt-contrib-watch --save-dev
+
+Para el caso de compartir el proyecto simplemente se dice 
+npm install
+
+TAREA
+Comprima. Ofusque. Concatene la pagina web
+
+--------------------------------------------
+Position.
+
+Fixed. muestra cero siempre con el top. Buena opcion como barra de tareas.
+Absolute. se adapta al borde del padre.
+relative. ubica la posicion relativa con respecto a la posicion primaria
+			position: relative;
+			left: 200px;
