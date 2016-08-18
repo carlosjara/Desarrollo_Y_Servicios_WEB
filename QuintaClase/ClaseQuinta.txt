@@ -1,0 +1,25 @@
+Clase Quinta
+------------
+
+Posicionamiento.
+Float-Fluid es la forma mas basica responsive, Se maneja con % para que se adapte a la pantalla.
+
+Frameworks para css
+Bootstrap. tiene un grid adaptable al contenido, se adapta de acuerdo al texto o contenido.
+
+Node js.
+Interprete para javascript codigo. usando el motor de chrome. Chrome's V8 engine.
+Este tiene un Package manager que permite encontrar, compartir, reusar paquetes y librerias.
+
+Siendo una herramienta de manejo de dependencias eficientemente.
+
+hay dos tipos de dependencias: locales y dev. ambas son dependencias [ofuscar, pasar a no legible].
+
+npm init
+npm install <dependecy name> --save
+npm install <dependecy name> --save -dev
+
+_GRUNT_
+Task executor. permite hacer tareas de manera simultanea-
+
+Connect: levantar un servidor local en js. al que se le pasa el puerto, el path y se peude abrir.

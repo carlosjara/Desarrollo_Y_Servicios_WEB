@@ -1,0 +1,31 @@
+body{
+
+}
+div#main{
+}
+
+div#header{
+	clear: both;
+	border-style: solid;
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 100%
+}
+div#leftBar{
+	width: 20%;
+	float: left;
+	border-right: solid;
+	text-align: center;
+}
+div#rightBar{
+	width: 20%;
+	float: left;
+}
+div#footer{
+	clear: both;
+	border-style: solid;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
