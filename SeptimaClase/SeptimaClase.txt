@@ -1,0 +1,41 @@
+|--------------------------------------|
+|            Clase Septima.            |
+|--------------------------------------|
+
+Es necesario poder ver un servidor y saber como manejarla, el servidor puede responder las peticiones.
+
+JAVA SCRIPT
+
+Comportamiento [JavaScript], presentacion [Css], estructura [Html].
+Esta herramienta no es completamente necesaria, pero da una mejor herramienta para el buen funcionamiento del sitio web.
+Javascript, permite enriquecer un sitio.
+
+Que se puede hacer:
+	Escuchar eventos y responder a estos. [Como Click, presion de una tecla].
+	Modificar la pagina despues de que se cargó.
+	Crear Juegos en linea. [WebGl].
+	Para poder comunicar el servidos y el cliente, pero la comunicacion detras de las escenas.
+	Permite interaccion a dispositivos de hardware como camara, microfono entre otros.
+
+Este lenguaje es de tipado dinamico, pueden cambiar de tipo. (array, int) pero se definen como var.
+Se puede consultar los tipos: numbers (decimales,enteros), string, boolean, object, functions, undefined.
+
+Objecto, son de tipo dinamicos.
+
+Typeof -- entrega el tipo de una variable.
+null es de tipo object.
+
+--Funciones--
+Estas pueden usarse de varias maneras, las funciones son ciudadanos de primera clase.
+
+Si una funcion, tiene definidas varios parametros se ignoran los parametros.
+
+--Condicionales--
+Similares a lenguajes como Python.
+
+
+--Servidor HTTP--
+La comunicacion se da por el protocolo tcp ip y escucha puertos en particules por los que realiza la comunicacion.
+
+Esta hecho para peticiones asincronas y sincronas.
+
