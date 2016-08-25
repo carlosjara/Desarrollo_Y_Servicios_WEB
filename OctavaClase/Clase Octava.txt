@@ -1,0 +1,38 @@
+Clase Octava
+
+Http Request.
+
+Request Line
+Request headers.
+request message body
+
+Http Response
+
+Status line
+Responde header [content-type] informacion extra para el navegador de como mostrar las cosas.
+
+Query Params [?parameter=value-parameter&parameter=value-parameter]
+			? <- inicializa el valor
+			& <- separa parametros
+
+Libreria url
+
+var url = require ("url");
+
+Http Headers
+El request tiene unos componenetes como tipo de conexion entre otros
+El reponse tiene algunas como content-type
+
+De acuerdo al tamaño de las solicitudes puede ser muy extensiva la respuesta lo cual es un problema.
+
+_______________----------------______________
+
+_TEMPLATE ENGINE_
+html generado.
+Formularios - Pueden ser de contacto. permiten a las aplicaciones web con el servidor. permiten la interaccion con las aplicaciones.
+Estos pueden enviar todos lo metodos de http. de acuerdo a la convencion
+GET request to read a web page
+
+Como Funcionan:
+	action es donde los quiero enviar y el metodo donde que quiero llamar
+A lo que se les pasan datos por medio de inputs estos input tiene una llamada name y lo que permite en el servidor reconocer para poder interactuar.
