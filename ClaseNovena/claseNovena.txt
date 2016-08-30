@@ -1,0 +1,34 @@
+Java Script
+
+No soporta Multiples Hilos. [No se bloquea el hilo nunca]
+
+CallBack,Trabajo con peticiones asincronas. se llama o otra tarea apenas termine
+		 al igual que con peticiones sincronas. se llaman otras tareas e inician en el mismo momento.
+		 (Toma registro de los accesos y espera en los llamados, distinto a bloquear el hilo.)
+
+Aunque JavaScript es SingleThread ocurre raisecondition.
+
+
+__Funcion Anonima__
+server.listen(PORT, function(){
+	console.log("Server listening on: http://localhost:%s", PORT);
+});
+___________________
+
+__Funcion Nombrada__
+var init = function(){
+	console.log("Server listening on: http://localhost:%s", PORT);
+}
+server.listen(PORT, init);
+___________________
+
+Operaciones que usan Callback
+
+acceso a disco, base de datos, peticion http, entre otras.
+
+ACTIVDAD
+...
+
+Template Engine.
+Un template al que se le pasan unas variables .... y el server las cambia
+
