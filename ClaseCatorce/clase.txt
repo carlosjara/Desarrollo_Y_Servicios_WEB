@@ -1,0 +1,43 @@
+_____________________________________________________
+Clase Catorce
+_____________________________________________________
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").css({"background-color": "yellow", "font-size": "200%"});
+    });
+});
+
+Document.ready esta listo cuando todo el DOM esta cargado.
+
+En JQuery
+
+los valores son getters y setters.
+$("p").attr()
+$("p").attr("style"."background-color:black")
+
+Single Page Application
+_____________________________________________________
+No tendra refresh de las cosas.
+
+la mejor forma de spa es usar template engine, pero en el
+cliente. 
+
+Query selectores
+document.querySelector(); 
+
+entrega el primer elemneto que cumpla la caracteristica
+
+document.querySelectorAll(); 
+
+entrega todos los elementos que cumplan la caracteristica
+
+Adding/Removing Nodes
+por javascript se pueden
+var miMenu = document.getElementById('MenuPrincipal')
+miMenu.removeChild(document.getElementById('miElemento'))
+
+pero por jquery existen append y remove
+jQuery(".quicktabs-tabs").append("<li><a href="www.google.com" id="quicktabs-tab-qt-conexion_google" class="active jquery-once-5-processed">"Google"::after</a></li>")
+
+Existen tipo de eventos para poder accionar
+tres formas de usar esos eventos.

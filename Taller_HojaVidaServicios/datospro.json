@@ -1,0 +1,157 @@
+[
+	{
+		"leftBar" : [{"Item": "Principal","img":"png/ic_remove_white_36dp_2x.png","ref":"#"}, 
+					{"Item":"Informacion","img":"png/ic_assignment_ind_white_36dp_2x.png","ref":"/cv#informacion"}, 
+					{"Item":"Frase Celebre","img":"png/ic_message_white_36dp_2x.png","ref":"/cv#frase"}, 
+					{"Item":"Perfil","img":"png/ic_account_box_white_36dp_2x.png","ref":"/cv#perfil"},
+					{"Item":"Proyectos","img":"png/ic_work_white_36dp_2x.png","ref":"/cv_proyectos#Proyectos"},
+					{"Item":"Estudios","img":"png/ic_import_contacts_white_36dp_2x.png","ref":"/cv_proyectos#Estudios"},
+					{"Item":"Ubicacion","img":"png/ic_person_pin_circle_white_36dp_2x.png","ref":"/cv_proyectos#"}, 
+					{"Item":"Hobbies","img":"png/ic_favorite_border_white_36dp_2x.png","ref":"/cv_hobbies#"}
+				],
+		"header" : {"titulo":"Carlos Enrique Jaramillo Aros",
+					"redeSocial" : [{"url":"https://www.facebook.com/carlosjaramilloaros","class":"fa fa-facebook-square"},
+					 				 {"url":"skype:carlosjara?call","class":"fa fa-skype"},
+					 				 {"url":"http://twitter.com/CarlosJara0919","class":"fa fa-twitter-square"}
+					 				],
+					"cuentasGit" : [{"url":"escher.javerianacali.edu.co:8000/u/cjaramillo","texto":"gitLab"},
+					 				 {"url":"http://github.com/carlosjara/","texto":"gitHub"}
+					 				],
+					"titulopagina":"Estudios y Proyectos"
+					},
+		"Content": {"SubPrimero":"Estudios",
+					"listaEstudios" : [{"Institucion":"Pontificia Universidad Javeriana",
+										"Descripcion": [ {"Titulo":"Ingenieria de Sistemas y Computacion",
+														 "Periodo":"Octavo Semestre [2016-2]"}
+													   ],
+										"idR":"Cole1"
+									   },
+									   {"Institucion":"Institución Educativa Panebianco Americano",
+										"Descripcion": [ {"Titulo":"Bachiller Academico",
+														 "Periodo":"Grado Once [2011]"}
+													   ],
+										"idR":"Cole"
+									   }
+									  ],
+					"SubSegundo":"Proyectos Destacados",
+					"listaProyectos" : [ {"TituloProyecto":"Gswitch/case",
+											"DescripcionProyecto":"Adelantar investigación en temas relacionados con la aplicación de Gswitch/Case (Extencion de Switch/Case) al lenguaje C++ modificando el compilador Clang por ingeniería inversa usando debuggers para LLVM."
+										 },
+										 {"TituloProyecto":"Preservando Ando",
+											"DescripcionProyecto":"Adelantar investigación en temas de interés para el Grupo de investigación Destino sobre el proyecto inter-disciplinario de un video juego para la concientización sobre el cuidado de la laguna de Sonso y animales en peligro de extinción de los niños de Sonso Valle del cauca."
+										  },
+										  {"TituloProyecto":"Busqueda de Espacios Vacios en Parqueaderos",
+											"DescripcionProyecto":"Diseñar, implemantar y probar una herramienta utilizando Procesamiento digital de imagenes y Visión por computador que permita encontar los espacios vacios en un espacio de parqueadero delimitado, logrando disminuir los costos en la inversión para apoyar en el desarrollo de la pontificia universidad javeriana."
+										  }
+										],
+					"SubTercero":"Imagenes",
+					"listaImagenes" : [ 
+										 {"idN":"pr1-img-2",
+										 "Contador":"2 / 16",
+										 "Proyecto":"Proyecto : 1 / Imágen: 2",
+										 "srcImage":"images/galery/project1_2.png",
+										 "forPrev":"pr1-img-1",
+										 "forNext":"pr1-img-3"
+										 },
+										 {"idN":"pr1-img-3",
+										 "Contador":"3 / 16",
+										 "Proyecto":"Proyecto : 1 / Imágen: 3",
+										 "srcImage":"images/galery/project1_3.png",
+										 "forPrev":"pr1-img-2",
+										 "forNext":"pr1-img-4"
+										 },
+										 {"idN":"pr1-img-4",
+										 "Contador":"4 / 16",
+										 "Proyecto":"Proyecto : 1 / Imágen: 4",
+										 "srcImage":"images/galery/project1_4.png",
+										 "forPrev":"pr1-img-3",
+										 "forNext":"pr1-img-5"
+										 },
+										 {"idN":"pr1-img-5",
+										 "Contador":"5 / 16",
+										 "Proyecto":"Proyecto : 1 / Imágen: 5",
+										 "srcImage":"images/galery/project1_5.png",
+										 "forPrev":"pr1-img-4",
+										 "forNext":"pr1-img-6"
+										 },
+										 {"idN":"pr1-img-6",
+										 "Contador":"6 / 16",
+										 "Proyecto":"Proyecto : 1 / Imágen: 6",
+										 "srcImage":"images/galery/project1_4.png",
+										 "forPrev":"pr1-img-5",
+										 "forNext":"pr1-img-7"
+										 },
+										 {"idN":"pr1-img-7",
+										 "Contador":"7 / 16",
+										 "Proyecto":"Proyecto : 1 / Imágen: 7",
+										 "srcImage":"images/galery/project1_7.png",
+										 "forPrev":"pr1-img-6",
+										 "forNext":"pr1-img-8"
+										 },
+										 {"idN":"pr1-img-8",
+										 "Contador":"8 / 16",
+										 "Proyecto":"Proyecto : 2 / Imágen: 1",
+										 "srcImage":"images/galery/project1_8.png",
+										 "forPrev":"pr1-img-7",
+										 "forNext":"pr2-img-1"
+										 },
+										 {"idN":"pr2-img-1",
+										 "Contador":"9 / 16",
+										 "Proyecto":"Proyecto : 2 / Imágen: 1",
+										 "srcImage":"images/galery/project2_1.png",
+										 "forPrev":"pr1-img-8",
+										 "forNext":"pr2-img-2"
+										 },
+										 {"idN":"pr2-img-2",
+										 "Contador":"10 / 16",
+										 "Proyecto":"Proyecto : 2 / Imágen: 2",
+										 "srcImage":"images/galery/project2_2.png",
+										 "forPrev":"pr2-img-1",
+										 "forNext":"pr2-img-3"
+										 },
+										 {"idN":"pr2-img-3",
+										 "Contador":"11 / 16",
+										 "Proyecto":"Proyecto : 2 / Imágen: 3",
+										 "srcImage":"images/galery/project2_3.png",
+										 "forPrev":"pr2-img-2",
+										 "forNext":"pr2-img-4"
+										 },
+										 {"idN":"pr2-img-4",
+										 "Contador":"12 / 16",
+										 "Proyecto":"Proyecto : 2 / Imágen: 4",
+										 "srcImage":"images/galery/project2_4.png",
+										 "forPrev":"pr2-img-3",
+										 "forNext":"pr3-img-1"
+										 },
+										 {"idN":"pr3-img-1",
+										 "Contador":"13 / 16",
+										 "Proyecto":"Proyecto : 3 / Imágen: 1",
+										 "srcImage":"images/galery/project3_1.png",
+										 "forPrev":"pr2-img-4",
+										 "forNext":"pr3-img-2"
+										 },
+										 {"idN":"pr3-img-2",
+										 "Contador":"14 / 16",
+										 "Proyecto":"Proyecto : 3 / Imágen: 2",
+										 "srcImage":"images/galery/project3_2.png",
+										 "forPrev":"pr3-img-1",
+										 "forNext":"pr3-img-3"
+										 },
+										 {"idN":"pr3-img-3",
+										 "Contador":"15 / 16",
+										 "Proyecto":"Proyecto : 3 / Imágen: 3",
+										 "srcImage":"images/galery/project3_3.png",
+										 "forPrev":"pr3-img-2",
+										 "forNext":"pr3-img-4"
+										 },
+										 {"idN":"pr3-img-4",
+										 "Contador":"16 / 16",
+										 "Proyecto":"Proyecto : 3 / Imágen: 4",
+										 "srcImage":"images/galery/project3_4.png",
+										 "forPrev":"pr3-img-3",
+										 "forNext":"pr1-img-1"
+										 }
+										]
+					}
+	}
+]

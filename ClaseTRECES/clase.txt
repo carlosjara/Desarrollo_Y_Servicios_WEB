@@ -1,0 +1,90 @@
+_____________________________________________________
+Clase Trece
+_____________________________________________________
+Tips JavaScript
+
+Operadores de igual en JavaScript
+	Igual
+		== y ===
+
+	var x = 5-4;
+	if (x==true){
+		console.log("si");
+	}
+
+	== hace auto casting 
+
+	Existe Estrictamente igual ===
+	Verifica si realmente es igual
+
+___________________________________________________
+	function my(){
+		x=2;
+	}
+
+	console.log(x);
+
+	Cuando se hace salto de linea el pone ;
+	ejemplo.
+	function getValue() 
+	{
+		return 
+		{ 
+				name:"j"
+		}
+	}
+
+	console.log(getValue());
+
+	Output:
+	undefined
+
+___________________________________________________
+___________________________________________________
+	En JAVA Scrip
+		Document Object Model (DOM);
+
+		en el navegador ... este documento esta representado por la pagina como tal.
+
+___________________________________________________
+Document Object Model
+___________________________________________________
+	Es una representacion en objetos de toda la pagina.
+	Un objeto que representa el documento HTML
+	el html tiene hijos head y body ... el body tiene divs... etc.
+
+	Modificar el documento dinamicamente entre otros. se puede llamar AJAX (Asynchronous JavaScript And XML)
+
+DOCUMENTS COMPONENTS.
+	
+	The document object.
+	single page application. SPA nunca haria refrescar. da una buena experiencia de usuario
+		Aplicacion que solo se carga una pagina y las demas se llaman por javascript
+
+	se pueden obtener los elementos del DOM con funciones
+	Basic Selectors
+	document.getElementById('id');
+	document.getElementByClassName('class');
+
+___________________________________________________
+Java y Jquery
+___________________________________________________
+
+	document.getElementByClassName('class');
+	document.getElementsByTagName("div").length;
+	document.getElementsByTagName("p");
+
+	Con JQuery se pueden llamar con
+	jQuery("elementTag");
+	$("elementTag");
+
+	jQuery(".class");
+	$(".class");
+
+	jQuery(".id");
+	$("#id");
+
+	jQuery("[name=the_name]");
+	$("[name=the_name]");
+
+	

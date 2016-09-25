@@ -1,0 +1,102 @@
+body{
+	font-family: "Open Sans";
+}
+.main{
+	position: relative;
+}
+.header{
+	clear: both;
+}
+.head {
+	color: #6E8ED3;
+}
+.head:hover {
+	color: black;
+}
+.leftBar{
+    float: left;
+    font-size: 18px;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+.RightBar{
+	float: right;
+    font-size: 18px;
+    width: 30%;
+    text-align: center;
+}
+.Content{
+	float: left;
+    width: 40%;
+    text-align: center;
+}
+table {
+	margin: 0 auto;
+}
+.miFormato tr td{ 
+	font-size: 13px;
+	margin: 0 auto;
+}
+#Carrera:first-letter{
+	text-transform: uppercase;
+}
+.InfoCont {
+	text-align:center;
+}
+
+button a:hover{
+	text-decoration: none;
+	color: #FFFD4C;
+}
+button a{
+	color: white;
+	padding: 28%;
+	width: 50%;
+}
+a.enlaceBoton {
+	color: white;
+	background-color: #6E8ED3;
+	padding-bottom: 50%;
+	padding-top: 50%;
+}
+a.enlaceBoton:hover {
+	color: #FFFD4C;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.header1 {
+	text-align: center;
+	color: #6E8ED3;
+	text-transform: capitalize;
+}
+.enlaceBoton span{
+	display: none;
+}
+.enlaceBoton:hover span {
+	width: 60%;
+	height: 60%;
+  	display: inline;
+  	padding: 5%;
+}
+img:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+figure img {
+	-webkit-filter: sepia(30%);
+	filter: sepia(30%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	width: 70%;
+	margin: 5%;
+	padding: 3%
+}
+
+.fa {
+	font-size:24px;
+}

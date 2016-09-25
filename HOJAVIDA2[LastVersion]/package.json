@@ -1,0 +1,31 @@
+{
+  "name": "cvceja",
+  "version": "1.0.0",
+  "description": "Este proyecto contiene las primeras caracteristicas de contenido, estructura y estilo solicitadas en el taller CV 2.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "desarrollo",
+    "curriculumvitae"
+  ],
+  "author": "Carlos Jaramillo Aros",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express-server": "^0.5.3",
+    "grunt-replace": "^1.0.1"
+  }
+}

@@ -1,0 +1,52 @@
+{{#each messages}}
+<div class="Hobbies">
+	<div class="leftBar">
+		<div class="btn-group-vertical">
+			{{#each leftBar}}
+					<a type="button" class="btn btn-primary btn-lg btn-block" href={{ref}}><img class="indice_boton" src="images/{{img}}"><br><span>{{Item}}</span></a>
+				{{/each}}
+		</div>
+	</div>
+	<div class="header">
+		<div class="informacion"><a name="informacion"></a>
+			<a class="Titulo">{{header.titulo}}</a>
+			<small>
+			<br>
+			{{#each header.cuentasGit}}
+					<a class="cuentasGit" href="{{url}}">{{texto}} </a>
+			{{/each}}
+			<br>			
+			<a class="Subtitulo"><em>{{header.titulopagina}}</em></a><br>
+			{{#each header.redeSocial}}
+					<a class="cuentasRedes" href={{url}}>
+				<i class="{{class}}"></i>
+					</a>
+			{{/each}}
+			<br>
+		</div>
+	</div>
+	<div class="Content">
+		<br>{{Content.para}}
+		{{#each Content.Hobbies}}
+			<div class="Item">
+				<h2 class="Titulo">{{Titulo}}</h2>
+				<br>
+				<figure><img src={{src}} alt={{class}} class={{class}}></figure>
+				<p>{{texto}}</p><br>
+			</div>
+		{{/each}}
+		<div class="Item">
+			<h2 class="Titulo">{{Content.Titulo}}</h2><br>
+			<p>{{Content.textoRedes}}
+			</p><br>
+			Mis redes sociales:
+			<span class="fb-page" data-href="https://www.facebook.com/CarlosJara0919-340948376239569/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></span>
+			<span class="twitter-timeline"><a class="twitter-timeline" data-width="300" data-height="500" data-dnt="true" data-theme="white" href="https://twitter.com/CarlosJara0919">Tweets by CarlosJara0919</a></span><br>
+		</div>
+
+	</div>
+	<div class="footer"><div align=center><a href='http://www.counter12.com'><img src='http://www.counter12.com/img-4WcdBcyB-17.gif' border='0' alt='conter12'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=4WcdBcyB'></script></div>By. Carlos Jaramillo</div>
+</div>
+{{/each}}
+
+

@@ -1,0 +1,23 @@
+body{
+	font-family: "Open-Sans" !important;
+}
+#series, #correr, #sociales{
+	float: left;
+}
+#taekwondo, #peliculas{
+	float: right;
+}
+
+#section1, #section3, #section5, #section2, #section4{
+	margin: 5%;
+	width: 80%;
+}
+
+#subtitulo {
+	font-size: 14px !important;
+}
+.twitter-timeline, .fb-page{
+	margin-left: 5%;
+	position: relative;
+	left: 10%;
+}

@@ -1,0 +1,216 @@
+/*#613DFF -- azul1
+  #D1C6FF -- azulFondo
+  #1904B2 -- azulCabecera
+  #FFE100 -- amarillo
+*/
+
+body{
+	font-family: "Open Sans";
+	background-color: white;
+}
+.Proyectos .header{
+	clear:both;
+	border-style: solid;
+	text-align: center;
+	color: white;
+	width: 100%;
+}
+.Proyectos {
+	line-height: 100%;
+}
+.Proyectos .header .informacion{
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+
+.Proyectos .header .informacion .Titulo{
+	text-transform: capitalize;
+	color: Black;
+}
+.Proyectos .header .informacion .cuentasGit, .Proyectos .header .informacion .cuentasRedes, .Proyectos .header .cuentasGit{
+	color: #613DFF;
+	text-decoration: none;
+}
+
+.Proyectos .header .informacion .cuentasGit:hover, .Proyectos .header .informacion .cuentasRedes:hover, .Proyectos .header .cuentasGit:hover{
+	color: #FFE100;
+	text-decoration: none;
+}
+.Proyectos .header .informacion .cuentasRedes{
+	margin: 2%;
+}
+.Proyectos .header, .Proyectos .Content, .Proyectos .footer{
+	position: relative;
+	left: 20%;
+	width: 80%;
+}
+.Proyectos #Cole1{
+    list-style-image: url("../img/book-icon-polygon-16.png");    
+}
+.Proyectos #Cole{
+    list-style-image: url("../img/book-icon-polygon-16.png");    
+}
+.Proyectos .Content .Titulo{
+	text-align: left;
+	border-bottom: 3px solid #613DFF; 
+	text-transform: capitalize;
+}
+
+.Proyectos .footer {
+	clear: both;
+	border-style: solid;
+	text-align: right;
+	background-color: gray;
+	color: white;
+}
+.Proyectos .a{
+	text-decoration: none;
+}
+.Proyectos figure{
+	text-align: center;
+}
+.Proyectos img:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.Proyectos figure img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	width: 25%;
+	margin: 3%;
+	padding: 2%;
+}
+.Proyectos .leftBar .btn span{
+	display: none;
+}
+.Proyectos .leftBar .btn:hover span{
+  	display: inline;
+  	color: #FFE100;
+  	font-size: 18px;
+}
+.Proyectos .leftBar{
+	position: fixed;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.Proyectos .leftBar img {
+	width: 60%;
+	margin: 3%;
+	padding: 2%;
+
+}
+
+.Proyectos .imagenes .slide {
+    top: 0;
+    opacity: 0;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+    transition: all .7s ease-in-out;
+}
+.Proyectos .imagenes .slides {
+    padding: 0;
+    width: 609px;
+    height: 530px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.Proyectos .imagenes .slides input { 
+	display: none; 
+}
+
+.Proyectos .imagenes .slide-container { 
+    display: block; 
+    text-align: center;
+}
+
+.Proyectos .imagenes .slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.Proyectos .imagenes .nav label {
+    width: 20%;
+    height: 100%;
+    display: none;
+    position: absolute;
+	opacity: 0;
+    cursor: pointer;
+
+    color: #FFF;
+    font-size: 156pt;
+    background-color: rgba(0, 0, 0, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.Proyectos .imagenes .nav label:hover { opacity: 1; }
+
+.Proyectos .imagenes .nav .next { right: 0;}
+
+.Proyectos .imagenes input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+}
+
+.Proyectos .imagenes input:checked + .slide-container .nav label { display: block; }
+
+.Proyectos .imagenes .nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+.Proyectos .imagenes .nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 90%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Proyectos .imagenes .nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Proyectos .imagenes #pr1-img-1:checked ~ .nav-dots #pr1-img-dot-1,
+.Proyectos .imagenes #pr1-img-2:checked ~ .nav-dots #pr1-img-dot-2,
+.Proyectos .imagenes #pr1-img-3:checked ~ .nav-dots #pr1-img-dot-3,
+.Proyectos .imagenes #pr1-img-4:checked ~ .nav-dots #pr1-img-dot-4,
+.Proyectos .imagenes #pr1-img-5:checked ~ .nav-dots #pr1-img-dot-5,
+.Proyectos .imagenes #pr1-img-6:checked ~ .nav-dots #pr1-img-dot-6,
+.Proyectos .imagenes #pr1-img-7:checked ~ .nav-dots #pr1-img-dot-7,
+.Proyectos .imagenes #pr1-img-8:checked ~ .nav-dots #pr1-img-dot-8, 
+.Proyectos .imagenes #pr2-img-1:checked ~ .nav-dots #pr2-img-dot-1,
+.Proyectos .imagenes #pr2-img-2:checked ~ .nav-dots #pr2-img-dot-2,
+.Proyectos .imagenes #pr2-img-3:checked ~ .nav-dots #pr2-img-dot-3,
+.Proyectos .imagenes #pr2-img-4:checked ~ .nav-dots #pr2-img-dot-4, 
+.Proyectos .imagenes #pr3-img-1:checked ~ .nav-dots #pr3-img-dot-1,
+.Proyectos .imagenes #pr3-img-2:checked ~ .nav-dots #pr3-img-dot-2,
+.Proyectos .imagenes #pr3-img-3:checked ~ .nav-dots #pr3-img-dot-3,
+.Proyectos .imagenes #pr3-img-4:checked ~ .nav-dots #pr3-img-dot-4{
+    background: rgba(0, 0, 0, 0.8);
+}
+.Proyectos .mapa{
+	position: relative;
+	left: 10%;
+
+	-moz-box-shadow: 2px 2px 15px #ccc;
+	-webkit-box-shadow: 2px 2px 15px #ccc;
+	box-shadow: 2px 2px 15px #ccc;
+
+	margin-top: 5%;
+	width:80%;
+	height: 600px;
+}

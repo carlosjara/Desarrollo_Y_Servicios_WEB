@@ -1,0 +1,103 @@
+{{#each messages}}
+<div class="Proyectos">
+	<div class="leftBar">
+		<div class="btn-group-vertical">
+			{{#each leftBar}}
+				<a type="button" class="btn btn-primary btn-lg btn-block" href={{ref}}><img class="indice_boton" src="images/{{img}}"><br><span>{{Item}}</span></a>
+			{{/each}}
+		</div>	
+	</div>
+	<div class="header">
+		<div class="informacion"><a name="informacion"></a>
+			<a class="Titulo">{{header.titulo}}</a>
+			<small>
+			<br>
+			{{#each header.cuentasGit}}
+					<a class="cuentasGit" href="{{url}}">{{texto}} </a>
+			{{/each}}
+			<br>			
+			<a class="Subtitulo"><em>{{header.titulopagina}}</em></a><br>
+			{{#each header.redeSocial}}
+					<a class="cuentasRedes" href={{url}}>
+				<i class="{{class}}"></i>
+					</a>
+			{{/each}}
+			<br>
+		</div>
+	</div>
+	<div class="Content">
+		<h2 class="Titulo"><a name="Estudios"></a>{{Content.SubPrimero}}</h2>
+		<ol>
+		{{#each Content.listaEstudios}}
+			<li>
+				<ol id="{{idR}}">
+					{{Institucion}}
+					{{#each Descripcion}}
+						<li>
+							{{Titulo}}<br>{{Periodo}}
+						</li>
+					{{/each}}
+				</ol> 
+			</li>
+		{{/each}}
+		</ol>
+		<h2 class="Titulo"><a name="Proyectos"></a>{{Content.SubSegundo}}</h2>
+		{{#each Content.listaProyectos}}
+			<h3>{{TituloProyecto}}</h3>
+			<p>{{DescripcionProyecto}}</p>
+		{{/each}}
+		<div class="imagenes">
+			<h2 class="Seccion">{{Content.SubTercero}}</h2>
+				<ul class="slides">
+					<input type="radio" name="radio-btn" id="pr1-img-1" checked=""/>
+				    <li class="slide-container">
+						<div class="slide">
+							<div class="numbertext">1 / 16 <br>Proyecto : 1 / Imágen: 1</div>
+							<img src="images/galery/project1_1.png" />
+				        </div>
+						<div class="nav">
+							<label for="pr3-img-4" class="prev"></label>
+							<label for="pr1-img-2" class="next"></label>
+						</div>
+				    </li>
+
+					{{#each Content.listaImagenes}}
+				    <input type="radio" name="radio-btn" id="{{idN}}"/>
+				    <li class="slide-container">
+				    	<div class="slide">
+							<div class="numbertext">{{Contador}}<br>{{Proyecto}}</div>
+							<img src="{{srcImage}}" />
+				       	</div>
+						<div class="nav">
+							<label for="{{forPrev}}" class="prev"></label>
+							<label for="{{forNext}}" class="next"></label>
+						</div>
+				    </li>
+					{{/each}}
+					<li class="nav-dots">
+				      <label for="pr1-img-1" class="nav-dot" id="pr1-img-dot-1"></label>
+				      <label for="pr1-img-2" class="nav-dot" id="pr1-img-dot-2"></label>
+				      <label for="pr1-img-3" class="nav-dot" id="pr1-img-dot-3"></label>
+				      <label for="pr1-img-4" class="nav-dot" id="pr1-img-dot-4"></label>
+				      <label for="pr1-img-5" class="nav-dot" id="pr1-img-dot-5"></label>
+				      <label for="pr1-img-6" class="nav-dot" id="pr1-img-dot-6"></label>
+				      <label for="pr1-img-7" class="nav-dot" id="pr1-img-dot-7"></label>
+				      <label for="pr1-img-8" class="nav-dot" id="pr1-img-dot-8"></label>
+				      <label for="pr2-img-1" class="nav-dot" id="pr2-img-dot-1"></label>
+				      <label for="pr2-img-2" class="nav-dot" id="pr2-img-dot-2"></label>
+				      <label for="pr2-img-3" class="nav-dot" id="pr2-img-dot-3"></label>
+				      <label for="pr2-img-4" class="nav-dot" id="pr2-img-dot-4"></label>
+				      <label for="pr3-img-1" class="nav-dot" id="pr3-img-dot-1"></label>
+				      <label for="pr3-img-2" class="nav-dot" id="pr3-img-dot-2"></label>
+				      <label for="pr3-img-3" class="nav-dot" id="pr3-img-dot-3"></label>
+				      <label for="pr3-img-4" class="nav-dot" id="pr3-img-dot-4"></label>
+				    </li>
+				</ul>
+		</div>
+	</div>
+	
+	<div class="footer"><div align=center><a href='http://www.counter12.com'><img src='http://www.counter12.com/img-4WcdBcyB-17.gif' border='0' alt='conter12'></a><script type='text/javascript' src='http://www.counter12.com/ad.js?id=4WcdBcyB'></script></div>By. Carlos Jaramillo</div>
+</div>
+{{/each}}
+
+

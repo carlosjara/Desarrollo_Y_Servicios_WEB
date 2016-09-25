@@ -1,0 +1,46 @@
+[
+	{
+		"leftBar" : [{"Item": "Principal","img":"png/ic_remove_white_36dp_2x.png","ref":"#"}, 
+					{"Item":"Informacion","img":"png/ic_assignment_ind_white_36dp_2x.png","ref":"/cv#informacion"}, 
+					{"Item":"Frase Celebre","img":"png/ic_message_white_36dp_2x.png","ref":"/cv#frase"}, 
+					{"Item":"Perfil","img":"png/ic_account_box_white_36dp_2x.png","ref":"/cv#perfil"},
+					{"Item":"Proyectos","img":"png/ic_work_white_36dp_2x.png","ref":"/cv_proyectos#Proyectos"},
+					{"Item":"Estudios","img":"png/ic_import_contacts_white_36dp_2x.png","ref":"/cv_proyectos#Estudios"},
+					{"Item":"Ubicacion","img":"png/ic_person_pin_circle_white_36dp_2x.png","ref":"/cv_proyectos#"}, 
+					{"Item":"Hobbies","img":"png/ic_favorite_border_white_36dp_2x.png","ref":"/cv_hobbies#"}
+				],
+		"header" : {"titulo":"Carlos Enrique Jaramillo Aros",
+					"redeSocial" : [{"url":"https://www.facebook.com/carlosjaramilloaros","class":"fa fa-facebook-square"},
+					 				 {"url":"skype:carlosjara?call","class":"fa fa-skype"},
+					 				 {"url":"http://twitter.com/CarlosJara0919","class":"fa fa-twitter-square"}
+					 				],
+					"cuentasGit" : [{"url":"escher.javerianacali.edu.co:8000/u/cjaramillo","texto":"gitLab"},
+					 				 {"url":"http://github.com/carlosjara/","texto":"gitHub"}
+					 				],
+					"titulopagina":"Estudios y Proyectos"
+					},
+		"Content": {"Hobbies" :[
+							{"Titulo":"Series",
+							"src":"images/png/the-flash.png",
+							"class":"series",
+							"texto":"Series basadas en DC Comics, tales como The Flash logrando abarcar gran parte de estos escritos lograr ser de las actividades que mas disfruto realizar puesto que lleva una trama completamente diferente a las demas series de Tv, logrando mezclar ciencia ficción por parte de los producctores y humanidad por parte de los personajes que allí se presentan. Actualmente Se está esperando el lanzamiento de la tercer temporada que será en el mes de octubre de 2016, en la que se plantea presentar mayor inmersividad para los fans de esta trama dado que muestra una de los numeros del comic mas vendido. the FlashPoint, en este The Flash lográ viajar al pasado y cambia drasticamente la linea del tiempo y se encuentra con gran cantidad de sorpresas."},
+							{"Titulo":"Taek-Won-Do",
+							"src":"images/png/karate-high-kick.png",
+							"class":"taekwondo",
+							"texto":"Series basadas en DC Comics, tales como The Flash logrando abarcar gran parte de estos escritos lograr ser de las actividades que mas disfruto realizar puesto que lleva una trama completamente diferente a las demas series de Tv, logrando mezclar ciencia ficción por parte de los producctores y humanidad por parte de los personajes que allí se presentan. Actualmente Se está esperando el lanzamiento de la tercer temporada que será en el mes de octubre de 2016, en la que se plantea presentar mayor inmersividad para los fans de esta trama dado que muestra una de los numeros del comic mas vendido. the FlashPoint, en este The Flash lográ viajar al pasado y cambia drasticamente la linea del tiempo y se encuentra con gran cantidad de sorpresas."},
+							{"Titulo":"Correr",
+							"src":"images/png/runer-silhouette-running-fast.png",
+							"class":"correr",
+							"texto":"Series basadas en DC Comics, tales como The Flash logrando abarcar gran parte de estos escritos lograr ser de las actividades que mas disfruto realizar puesto que lleva una trama completamente diferente a las demas series de Tv, logrando mezclar ciencia ficción por parte de los producctores y humanidad por parte de los personajes que allí se presentan. Actualmente Se está esperando el lanzamiento de la tercer temporada que será en el mes de octubre de 2016, en la que se plantea presentar mayor inmersividad para los fans de esta trama dado que muestra una de los numeros del comic mas vendido. the FlashPoint, en este The Flash lográ viajar al pasado y cambia drasticamente la linea del tiempo y se encuentra con gran cantidad de sorpresas."},
+							{"Titulo":"Peliculas",
+							"src":"images/png/popcorn.png",
+							"class":"peliculas",
+							"texto":"Series basadas en DC Comics, tales como The Flash logrando abarcar gran parte de estos escritos lograr ser de las actividades que mas disfruto realizar puesto que lleva una trama completamente diferente a las demas series de Tv, logrando mezclar ciencia ficción por parte de los producctores y humanidad por parte de los personajes que allí se presentan. Actualmente Se está esperando el lanzamiento de la tercer temporada que será en el mes de octubre de 2016, en la que se plantea presentar mayor inmersividad para los fans de esta trama dado que muestra una de los numeros del comic mas vendido. the FlashPoint, en este The Flash lográ viajar al pasado y cambia drasticamente la linea del tiempo y se encuentra con gran cantidad de sorpresas."}
+		     				   ],
+					"para":"Dentro de las actividades del diario vivir y durante los tiempos libre las actividades que mas a gusto me siento realizar son:",
+					"Titulo":"Redes Sociales",
+					"textoRedes":"Por ultimo pero no menos importante, es el poder estar al tanto de la actulidad y de socializacion de formas de pensar, que por medio de las redes sociales es compartida por aquellos que de igual manera encuentran cierto refugio en el anonimato ó en el argumento de libre pensamiento para expresar su punto de vista en distintos escenarios que hacen que las redes esten en constante actualización."
+					}
+
+	}
+]

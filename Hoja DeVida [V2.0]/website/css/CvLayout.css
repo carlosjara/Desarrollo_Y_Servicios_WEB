@@ -1,0 +1,190 @@
+body{
+	font-family: "Open-Sans" ;
+}
+div .headerPerfil{
+	clear: both;
+	border-style: solid;
+	text-align: center;
+	background-color: #035CB0;
+	color: white;
+	width: 100%;
+}
+.faPerfil{
+	font-size:24px;
+}
+#headerPerfil {
+	position: relative;
+	left: 4%;	
+}
+.InfoContPerfil .CorreoPerfil{
+	color: #6E8ED3;
+}
+.leftBarTitulo{
+	width: 7%;
+	float: left;
+	text-align: center;
+	position: fixed;
+	height: 100%
+}
+.botonPerfil{
+	width: 60%;
+	height: 60%;
+}
+.titlePerfil span{
+	display: none;
+}
+.titlePerfil:hover span {
+	width: 60%;
+	height: 60%;
+  	display: inline;
+  	padding: 5%;
+}
+
+.buttonPerfil {
+    background-color: #6E8ED3;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: #FFFD4C;
+	text-decoration: none;
+}
+div .ContentPerfil{
+	width: 90%;
+	float: left;
+	position: relative;
+	left: 9%;
+}
+fotoPerfil:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#botonPerfil:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+figure img {
+	-webkit-filter: sepia(30%);
+	filter: sepia(30%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	width: 20%;
+	margin: 3%;
+}
+
+figure {
+	text-align: center;
+}
+table {
+	margin: 0 auto;
+}
+
+.miFormatoPerfil tr td{ 
+	font-size: 13px;
+	margin: 0 auto;
+}
+
+.headertituloPerfil {
+	text-align: center;
+	color:#6E8ED3;
+	text-transform: capitalize;
+}
+.h2Perfil {
+	text-align: left;
+	border-bottom: 3px solid #035CB0; 
+	text-transform: capitalize;
+}
+
+#CarreraPerfil:first-letter{
+	text-transform: uppercase;
+}
+.InfoCont {
+	text-align:center;
+}
+
+.indice {
+	text-transform: capitalize;
+	list-style-type: none;
+    margin-right:0.5%;
+    margin-left:0.5%;
+    border: 15%;
+    background-color: #035CB0;
+    text-decoration: none;
+}
+strong {
+	font-size: 19px;
+	text-transform: capitalize;
+}
+.indice a {
+	display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-right:0.5%;
+}
+.InfoContPerfil a {
+	color: #6E8ED3;
+}
+.InfoContPerfil a:hover {
+	color: gray;
+	text-decoration: none;
+}
+p.InfoContPerfil:first-letter{
+	text-transform: capitalize;
+}
+
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin-left: 4%;	
+  margin-right: 4%;
+  position: relative;
+  
+  /*Font*/
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: center;
+  
+  /*Borders - (Optional)*/
+  border-left: 15px solid #6E8ED3;
+  border-right: 2px solid #6E8ED3;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+#PerfilProfesional {
+	text-align: justify;
+	margin-right: 3%
+}
+.OlLenguajes{
+	margin-right: 4%;
+}
+
+
+.footerPerfil{
+	clear: both;
+	border-style: solid;
+	text-align: right;
+	background-color: black;
+	color: white;
+	width: 90%;
+	position: relative;
+	left: 9%;
+}

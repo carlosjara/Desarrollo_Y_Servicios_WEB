@@ -1,0 +1,162 @@
+/*
+	Archivo: style.css;
+	Autor: Carlos Jaramillo;
+	Descripcion: Uso de Estilos para el taller Elaboracion Hoja de Vida;
+*/
+
+/*selector Universal, tipo de letra Open Sans*/
+ *{
+	
+}
+/*selector de tipo o etiqueta*/
+html, body {
+	font-family: "Open Sans";
+    width: 100%;
+    /*background-image: url("../img/b54.png");*/
+
+    background: #FFFFFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFFFFF,#40b5ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF,#40b5ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF,#40b5ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF,#40b5ff); /* Standard syntax (must be last) */
+}
+table {
+    margin: 0 auto;
+}
+img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+/*selector descendente*/
+figure img {
+	-webkit-filter: sepia(30%);
+	filter: sepia(30%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	width: 20%;
+}
+a#cuentas{
+	text-decoration: none;
+}
+a:hover{color: #035CB0}
+a#cuentasGit{
+		text-transform: uppercase;
+		text-decoration:none;
+}
+
+h1{
+	  color:blue;
+	  text-transform: capitalize;
+	  /*Box Shadow - (Optional)*/
+	  -moz-box-shadow:< 2px 2px 15px #ccc;
+	  -webkit-box-shadow: 2px 2px 15px #ccc;
+	  box-shadow: 2px 2px 15px #ccc;
+}
+h2{
+	text-align: left;
+	border-bottom: 3px solid #035CB0; 
+	text-transform: capitalize;
+}
+
+/*selector de clase*/
+table.miFormato tr td { 
+	font-size: 13px;
+	margin: 0 auto;
+	 }
+/*selector id*/
+#correo{
+	text-transform: lowercase;
+}
+td#Carrera:first-letter{
+	text-transform: uppercase;
+}
+td.InfoCont {
+	text-align:center;
+}
+
+td.indice {
+	text-transform: capitalize;
+	list-style-type: none;
+    margin-right:0.5%;
+    margin-left:0.5%;
+    border: 15%;
+    background-color: #035CB0;
+    text-decoration: none;
+}
+strong {
+	font-size: 19px;
+	text-transform: capitalize;
+}
+td.indice a {
+	display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-right:0.5%;
+}
+td.indice:hover, td.indice:active {
+	background-color: #1E90FF;
+}
+
+td.indice a:visited{
+	color: #1E90FF;
+}
+
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin-left: 50pt;	
+  margin-right: 50pt;
+  position: relative;
+  
+  /*Font*/
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: center;
+  
+  /*Borders - (Optional)*/
+  border-left: 15px solid #035CB0;
+  border-right: 2px solid #035CB0;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+p#PerfilProfesional{
+	font-size: 16px;
+	line-height: 1.2;
+  	text-align: justify;
+  	margin-left: 60pt;	
+  	margin-right: 60pt
+}
+
+li,dt {
+  	text-align: justify;
+  	margin-left: 40pt;	
+  	margin-right: 40pt
+}
+
+ol.OlLenguajes{
+	list-style-type: upper-roman;
+}
+
+ol.OlProyectos{
+	list-style-image: url('../img/book-icon-polygon-16.png');
+}
+ul.OlProyectosInter{
+	list-style-image: url('../img/book-icon-circle-16.png');	
+}
+
+dd:first-letter, dt:first-letter, p::first-letter, li:first-letter {
+	text-transform: uppercase;
+}
+dd{
+  	margin-left: 60pt;	
+  	margin-right: 60pt;
+}

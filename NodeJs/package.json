@@ -1,0 +1,22 @@
+{
+  "name": "gruntProject",
+  "version": "1.0.0",
+  "description": "Prueba",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "puj"
+  ],
+  "author": "carlos jaramillo",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-connect": "^0.2.0",
+    "grunt-contrib-connect": "^1.0.2"
+  }
+}

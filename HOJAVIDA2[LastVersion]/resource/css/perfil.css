@@ -1,0 +1,139 @@
+/*#613DFF -- azul1
+  #D1C6FF -- azulFondo
+  #1904B2 -- azulCabecera
+  #FFE100 -- amarillo
+*/
+
+body{
+	font-family: "Open Sans";
+	background-color: darkgray;
+}
+.Perfil .header{
+	clear:both;
+	border-style: solid;
+	text-align: center;
+	background-color: darkgray;
+	color: white;
+	width: 100%;
+}
+.Perfil {
+	line-height: 100%;
+}
+
+.Perfil .header .Titulo{
+	text-transform: capitalize;
+	color: #1904B2;
+}
+.Perfil .header, .Perfil .Content, .Perfil .footer{
+	position: relative;
+	left: 20%;
+	width: 80%;
+}
+.Perfil .Content .Nombre{
+	text-align: center;
+}
+.Perfil .Content .informacion #correo, .Perfil .Content .cuentasRedes, .Perfil .Content .cuentasGit, .Perfil .Content .perfil .linkJaveriana{
+	color: #613DFF;
+	text-decoration: none;
+}
+
+.Perfil .Content .informacion #correo:hover, .Perfil .Content .cuentasRedes:hover, .Perfil .Content .cuentasGit:hover, .Perfil .Content .perfil .linkJaveriana:hover{
+	color: #FFE100;
+	text-decoration: none;
+}
+
+.Perfil blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin-left: 4%;	
+  margin-right: 4%;
+  position: relative;
+  
+  /*Font*/
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: center;
+  
+  /*Borders - (Optional)*/
+  border-left: 15px solid gray;
+  border-right: 2px solid gray;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+.Perfil .perfil #PerfilProfesional{
+	text-align: justify;
+	margin-right: 3%
+}
+.Perfil .footer {
+	clear: both;
+	border-style: solid;
+	text-align: right;
+	background-color: black;
+	color: white;
+}
+.Perfil .OlLenguajes{
+	margin-right: 4%;
+}
+.Perfil #hoja, .Perfil .informacion .Nombre{
+	text-transform: uppercase;
+}
+.Perfil #carrera:first-letter{
+	text-transform: uppercase;
+}
+
+.Perfil .Barpro {
+	background-color: darkgray;
+}
+.Perfil .TbInformacion{
+	font-size: 13px;
+	margin: 0 auto;
+}
+.Perfil table {
+	margin: 0 auto;
+	text-align: center;
+}
+.Perfil figure{
+	text-align: center;
+}
+.Perfil img:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.Perfil figure img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	width: 25%;
+	margin: 3%;
+	padding: 2%;
+
+}
+.Perfil .perfil .titulo{
+	text-align: left;
+	border-bottom: 3px solid #613DFF; 
+	text-transform: capitalize;
+}
+.Perfil .leftBar .btn span{
+	display: none;
+}
+.Perfil .leftBar .btn:hover span{
+  	display: inline;
+  	color: #FFE100;
+  	font-size: 18px;
+}
+.Perfil .leftBar{
+	position: fixed;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.Perfil .leftBar img {
+	width: 60%;
+	margin: 3%;
+	padding: 2%;
+
+}

@@ -1,0 +1,105 @@
+body{
+	font-family: "Open Sans";
+	background-color: white;
+}
+.Hobbies .header{
+	clear:both;
+	border-style: solid;
+	text-align: center;
+	color: white;
+	width: 100%;
+}
+.Hobbies .header .informacion .Titulo{
+	text-transform: capitalize;
+	color: Black;
+}
+.Hobbies .header .informacion{
+	width: 80%;
+	position: relative;
+	left: 10%;
+}
+.Hobbies {
+	line-height: 100%;
+}
+.Hobbies .header .informacion .cuentasGit, .Hobbies .header .informacion .cuentasRedes, .Hobbies .header .cuentasGit{
+	color: #613DFF;
+	text-decoration: none;
+}
+
+.Hobbies .header .informacion .cuentasGit:hover, .Hobbies .header .informacion .cuentasRedes:hover, .Hobbies .header .cuentasGit:hover{
+	color: #FFE100;
+	text-decoration: none;
+}
+.Hobbies .header .informacion .cuentasRedes{
+	margin: 2%;
+
+}
+.Hobbies .header, .Hobbies .Content, .Hobbies .footer{
+	position: relative;
+	left: 20%;
+	width: 80%;
+}
+
+.Hobbies .Item{
+	margin: 5%;
+	width: 80%;
+}
+.Hobbies .Content .Titulo{
+	text-align: left;
+	border-bottom: 3px solid #613DFF; 
+	text-transform: capitalize;
+}
+.Hobbies .footer {
+	clear: both;
+	border-style: solid;
+	text-align: right;
+	background-color: gray;
+	color: white;
+}
+.Hobbies figure{
+	text-align: center;
+}
+.Hobbies img:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.Hobbies figure img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	width: 25%;
+	margin: 3%;
+	padding: 2%;
+}
+.Hobbies .leftBar .btn span{
+	display: none;
+}
+.Hobbies .leftBar .btn:hover span{
+  	display: inline;
+  	color: #FFE100;
+  	font-size: 18px;
+}
+.Hobbies .leftBar{
+	position: fixed;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.Hobbies .leftBar img {
+	width: 60%;
+	margin: 3%;
+	padding: 2%;
+
+}
+.Hobbies figure .series,.Hobbies figure .correr{
+	float: left;
+	width: 10%;
+}
+.Hobbies figure .taekwondo,.Hobbies figure .peliculas {
+	float: right;
+	width: 15%;
+}
+.Hobbies .twitter-timeline, .fb-page{
+	margin-left: 5%;
+	position: relative;
+	left: 10%;
+}

@@ -1,0 +1,72 @@
+/*#613DFF -- azul1
+  #D1C6FF -- azulFondo
+  #1904B2 -- azulCabecera
+  #FFE100 -- amarillo
+*/
+
+body{
+	font-family: "Open Sans";
+	background-color: darkgray;
+}
+.Index .header{
+	text-align: center;
+	clear: both;
+	width: 100%;
+}
+.Index .leftBar{
+	text-align: center;
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.Index .leftBar .btn span, .Index .RightBar .btn span{
+	display: none;
+	color: #FFE100;
+}
+.Index .leftBar .btn:hover span, .Index .RightBar .btn:hover span{
+	display: inline;
+}
+.Index .Content{
+	text-align: center;
+	margin: auto;
+	float: left;
+	width: 60%;
+}
+.Index .RightBar{
+	text-align: center;
+	float: right;
+	width: 20%;
+}
+.Index .header .Titulo{
+	color: white;
+	text-transform: uppercase;
+	color: #1904B2;
+	font-size: 20pt;
+}
+.Index .header .Titulo:hover{
+	color: blue;
+}
+.Index .fa {
+	font-size: 24px;
+}
+.TbInformacion .carrera{
+	text-transform: capitalize; 	
+}
+.Index .TbInformacion{
+	margin: auto;
+}
+.Index a {
+	text-decoration: none;
+}
+.Index img:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.Index figure img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	width: 35%;
+	margin: 2%;
+	padding: 3%
+}

@@ -1,0 +1,95 @@
+{{#each messages}}
+<div class="Perfil">
+	<div class="leftBar">
+			<div class="btn-group-vertical">
+				{{#each leftBar}}
+					<a type="button" class="btn btn-primary btn-lg btn-block" href={{ref}}><img class="indice_boton" src="images/{{img}}"><br><span>{{Item}}</span></a>
+				{{/each}}
+			</div>	
+	</div>
+	<div class="header">
+		<span class="Titulo"><strong>{{header.titulo}}</strong></span>
+	</div>
+	<div class="Content">
+		<div class="informacion"><a name="informacion"></a>
+			<table class="TbInformacion">
+				<tr>
+					<th>
+						<figure>
+							<img src="images/Carlos.png" class="img-circle" alt="FotoPerfil">
+						</figure>
+					</th>
+				</tr>
+				<tr>
+					<th>
+						<h1 class="Nombre">
+							{{Content.nombre}}
+						</h1>						
+					</th>					
+				</tr>
+				<tr>
+					<td class="textInfo" id="hoja"><strong>{{Content.NombrePg}}</strong></td>
+				</tr>
+				<tr>
+					<td class="textInfo" id="carrera">{{Content.carrera}}</td>
+				</tr>
+				<tr>
+					<td class="textInfo"><a id="correo" href="mailto:cjara@javerianacali.edu.co">{{Content.correo}}</a></td>
+				</tr>
+				<tr>
+					<td class="textInfo">{{Content.identificacion}}</td>
+				</tr>
+				<tr>
+					<td class="textInfo">{{Content.direccion}}</td>
+				</tr>
+				<tr>
+					<td class="textInfo">{{Content.telefono}}</td>
+				</tr>
+				<tr>
+					<td class="textInfo"><a class="cuentasGit" href={{urlGithub}}>{{github}} </a><a class="cuentasGit" href={{urlGitlab}}>{{gitlab}}</a></td>
+				</tr>
+				<tr>
+					<td class="textInfo">
+					{{#each Content.redeSocial}}
+							<a class="cuentasRedes" href={{url}}>
+						<i class="{{class}}"></i>
+							</a>
+					{{/each}}
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="frase"><a name="frase"></a>
+			<blockquote>
+				<em>{{Content.frase}}</em>
+			</blockquote>
+		</div>
+		<div class="perfil"><a name="perfil"></a>
+			<h2 class="titulo">{{Content.perfil.titulo}}</h2>
+			<p class="textInfo" id="PerfilProfesional">{{Content.perfil.Contenido}}	
+				<ol class="OlLenguajes">
+					{{#each Content.perfil.lenguajes}}
+						<li class="list-group-item">
+							{{texto}}
+							<div class="progress">
+						  		<div class="progress-bar progress-bar-striped active Barpro" role="progressbar" style="width: {{progreso}}%">
+						    		<span class="sr-only"></span>
+						  		</div>
+							</div>
+						</li>
+					{{/each}}
+				</ol>
+			</p>
+		</div>
+
+	</div>
+	<div class="footer">
+		<div align=center>
+			<a href={{urlContador}} border='0' alt='conter12'></a>
+			<script type='text/javascript' src={{srcContador}}></script>
+		</div>By. {{footer.por}}
+	</div>
+</div>
+{{/each}}
+
+

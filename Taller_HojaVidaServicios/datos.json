@@ -1,0 +1,49 @@
+[
+	{
+		"leftBar" : [{"Item": "Principal","img":"png/ic_remove_white_36dp_2x.png","ref":"#"}, 
+					{"Item":"Informacion","img":"png/ic_assignment_ind_white_36dp_2x.png","ref":"/cv#informacion"}, 
+					{"Item":"Frase Celebre","img":"png/ic_message_white_36dp_2x.png","ref":"/cv#frase"}, 
+					{"Item":"Perfil","img":"png/ic_account_box_white_36dp_2x.png","ref":"#perfil"},
+					{"Item":"Proyectos","img":"png/ic_work_white_36dp_2x.png","ref":"/cv_proyectos#Proyectos"},
+					{"Item":"Estudios","img":"png/ic_import_contacts_white_36dp_2x.png","ref":"/cv_proyectos#Estudios"},
+					{"Item":"Ubicacion","img":"png/ic_person_pin_circle_white_36dp_2x.png","ref":"/cv_proyectos#"}, 
+					{"Item":"Hobbies","img":"png/ic_favorite_border_white_36dp_2x.png","ref":"/cv_hobbies#"}],
+		"header" : {"titulo":"Carlos Enrique Jaramillo Aros"},
+		"Content" : {"nombre":"Carlos Jaramillo",
+					 "NombrePg" :"Hoja de Vida",
+					 "carrera":"Ingenieria de Sistemas y Computacion",
+					 "correo":"cjara@javerianacali.edu.co",
+					 "identificacion" : "1.234.567.890 Bogota-Colombia",
+					 "direccion":"Avenida 123 #532",
+					 "telefono":"(+57) 311- 5048 - 508",
+					 "urlGithub" :"http://github.com/carlosjara/",
+					 "urlGitlab" :"escher.javerianacali.edu.co:8000/u/cjaramillo",
+					 "github":"gitHub",
+					 "gitlab":"gitLab",
+					 "redeSocial" : [{"url":"https://www.facebook.com/carlosjaramilloaros","class":"fa fa-facebook-square"},
+					 				 {"url":"skype:carlosjara?call","class":"fa fa-skype"},
+					 				 {"url":"http://twitter.com/CarlosJara0919","class":"fa fa-twitter-square"}
+					 				],
+					"frase" : "No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor.",
+					"perfil": {
+							"titulo": "Perfil Profesional","Contenido":"Estudiante de Ingeniería de Sistemas y Computación (Octavo semestre) en la Pontificia Universidad Javeriana. Énfasis en  Computación Orientada a la red y Animación y Sistemas Interactivos. Interesado en  las áreas de diseño y administración de bases de datos, desarrollo de software,  desarrollo de aplicaciones móviles y videojuegos. Líder, Pro-activo, disciplinado, con habilidades para trabajar en equipo y proponer nuevas ideas de solución, capaz de alcanzar los resultados esperados en labores asignadas y gran interés por seguir adquiriendo nuevos conocimientos. Con conocimientos en:",
+							"lenguajes" : [
+										{"texto":"C","progreso":"59"},
+										{"texto":"C++","progreso":"70"},
+										{"texto":"Python","progreso":"86"},
+										{"texto":"SQL","progreso":"58"},
+										{"texto":"Java","progreso":"40"},
+										{"texto":"Excel Avanzado","progreso":"85"}	
+										]
+								}
+					},
+		"footer": {
+				   "por" : "Carlos Jaramillo",
+				   "urlContador" : "http://www.counter12.com'><img src='http://www.counter12.com/img-4WcdBcyB-17.gif",
+				   "srcContador" : "http://www.counter12.com/ad.js?id=4WcdBcyB"
+
+
+				  }
+
+	}
+]

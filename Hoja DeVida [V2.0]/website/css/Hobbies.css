@@ -1,0 +1,21 @@
+body{
+	font-family: "Open-Sans";
+}
+div .headerhb {
+	clear: both;
+}
+.section{
+	margin: 5%;
+	width: 80%;
+}
+figure .series, figure .taekwondo, figure .correr, figure .peliculas {
+	float: left;
+}
+h1.headertituloH .subH {
+	font-size: 22px;
+}
+.twitter-timeline, .fb-page{
+	margin-left: 5%;
+	position: relative;
+	left: 10%;
+}
