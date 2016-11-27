@@ -1,0 +1,28 @@
+Clase 22
+
+Modelo Vista Control
+
+Controladores: Quien dan el paso de las peticiones http que llegan
+
+				En JavaScript son los routes.
+				en Java @Controller @RestController
+
+Vistas: los que muestra puede estar en el cliente o en el servidor
+
+			JS - HTML JS + Optional (template engine)
+			JAVA- JSP Java Server Pages
+
+Modelo: Logica, acceso a datos y demas
+
+------------------------------------------------------------------------------------------
+Todas las pagina tienen TRES CAPAS
+
+Controladores: 	WEB
+Servicios: 		Lo relacionado a la aplicacion, reglas del negocio 
+Persistencia:	Acceso a datos (select *) Guardar tabla, saque de las tablas, entre otro.
+
+-------------------------------------------------------------------------------------------
+
+El controlador recibe las peticiones y pinta vista. 
+El modelo son los servicios y la persistencia.
+rest y template

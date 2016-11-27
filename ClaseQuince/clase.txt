@@ -1,0 +1,46 @@
+_____________________________________________________
+Clase Quince
+_____________________________________________________
+REPASO
+
+Dom - Objeto en javascript amarrado a la pagina
+Si se quita algo del Dom en la pagina se quita tambien.
+
+textContent () 
+innerHtml () agrega literalmente texto html
+
+los nodos se pueden quitar agregar.
+
+Suscripcion a eventos.
+Mal -- suscribirse a funciones desde html
+		Limitaciones ilegible
+
+Mal -- busco el evento mismas limitaciones
+
+BIEN -- addeventlistener suscribe funciones a los objetos que se suscriban
+
+Al elementos se agrega un array con las funciones.
+_____________________________________________________
+
+AddEventListener ??
+_____________________________________________________
+AJAX
+Evolucion de las aplicaciones WEB
++Paginas estaticas.
+	- se monta server... Express
+
++Template Engine
+{{#Foreach}}
+
+Toma el template y datos para  generar html
+para que el browser los revisa.
++AJAX
+igual template engine, y el lenguaje puede hacer peticiones en javascript.
+Se envian solo secciones de html, para no estar refrescando javascript y headers.
+
+Un buen ejemplo de AJAX es un Single Page Application (SPA), estan tiene una problematicas por carga de la red. el procesamiento para las consultas es abusivo y puede fallar el servidor.
+
+En un AJAX, cada computador corre lo necesario para procesar las paginas.
+
+Permite hacer peticiones asincronas.
+El funcionamiento es la peticion inicial, se carga la pagina por primera vez, despues pedir query.

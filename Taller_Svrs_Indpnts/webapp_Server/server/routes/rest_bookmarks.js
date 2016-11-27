@@ -1,0 +1,44 @@
+var express = require('express');
+var router = express.Router();
+var db_bookmarks = require('../persistence/bookmarks');
+var validator = require("../validators/bookmarks");
+
+
+router.get('/bookmarks', function (req, res) {
+    db_bookmarks.getAll(function(rows, fields) {
+        res.json(rows);
+    });
+});
+
+router.get('/bookmarks/:id', function (req, res) {
+    var id = req.params.id
+    db_bookmarks.getById(id,function(rows, fields) {
+        res.json(rows);
+    });
+});
+
+router.post('/bookmarks', function (req, res) {
+  var name = req.body.name;
+  var link = req.body.link;
+    db_bookmarks.insert(name, link, function(rows, fields) {
+        res.json(rows);
+    });
+});
+
+router.put('/bookmarks/edit/:id', function (req, res) {
+    var id = req.params.id;
+    var name = req.body.name;
+    var link = req.body.link;
+    db_bookmarks.update(id, name, link, function(rows, fields) {
+        res.json(rows);
+    });
+});
+
+router.delete('/bookmarks/:id', function (req, res) {
+    var _id = req.params.id;
+    db_bookmarks.delete(_id, function(rows, fields) {
+        res.json(rows);
+    });
+});
+
+module.exports = router;

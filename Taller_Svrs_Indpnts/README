@@ -1,0 +1,13 @@
+To run this Single Page Application,
+install with npm all package and dependencies with
+    *npm install*
+in both folders webapp_Client and webapp_Server.
+next, you need to run. mongo in this case we use mongod on cmd.
+Run the server application with the command
+    *nodemon app.js*
+on webapp_Server
+Run the Client server with the command
+    *npm start*
+on webapp_Client.
+
+And in some browser put http://localhost:3001

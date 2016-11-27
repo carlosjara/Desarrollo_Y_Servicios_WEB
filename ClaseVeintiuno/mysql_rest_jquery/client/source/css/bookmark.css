@@ -1,0 +1,12 @@
+#add_button {
+    margin-bottom: 15px;
+    float: right;
+}
+
+#error {
+    border-color: red !important;
+}
+
+.action_button {
+    margin-left: 10px;
+}

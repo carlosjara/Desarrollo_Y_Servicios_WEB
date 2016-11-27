@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form id="bookmark_add_form" method="post" action="/bookmarks">
+            <input type="hidden" name="id" value="{{bookmark._id}}">
+
+            {{#if errors.name.hasErrors}}
+                <div id="name-form-group" class="form-group has-error">
+                    <label for="nameField">Name</label>
+                    <input name="name" id="nameField" type="text" class="form-control" placeholder="nombre" value="{{bookmark.name}}" >
+                    <div class="help-block with-errors">{{errors.name.error}}</div>
+                </div>
+            {{else}}
+                <div id="name-form-group" class="form-group">
+                    <label for="nameField">Name</label>
+                    <input name="name" id="nameField" type="text" class="form-control has-error" placeholder="nombre" value="{{bookmark.name}}" >
+                </div>
+            {{/if}}
+            </br>
+
+            {{#if errors.link.hasErrors}}
+                <div id="link-form-group" class="form-group has-error">
+                    <label for="linkField">Link</label>
+                    <input name="link" id="linkField" type="text" class="form-control" placeholder="http://example.com" value="{{bookmark.link}}">
+                    <div class="help-block with-errors">{{errors.link.error}}</div>
+                </div>
+            {{else}}
+                <div id="link-form-group" class="form-group">
+                    <label for="linkField">Link</label>
+                    <input name="link" id="linkField" type="text" class="form-control" placeholder="http://example.com" value="{{bookmark.link}}">
+                </div>
+            {{/if}}
+            </br>
+            <input type="submit" id="save_button" class="pull-right btn btn-primary" value="Save">
+        </form>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+{{#extend "scripts"}}
+    <script type="text/javascript" src="/js/custom/bookmark.js"></script>
+{{/extend}}

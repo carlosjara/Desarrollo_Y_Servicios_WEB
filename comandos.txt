@@ -1,0 +1,27 @@
+---...---
+npm init
+-- se llenan los datos de la app
+npm install express-generator -g
+express app
+express --hbs
+---...---
+
+
+mkdir app
+cd app
+npm init // se llenan los datos de la app
+npm install express --save
+node start // correr
+npm install grunt --save
+npm install grunt-contrib-copy --save-dev
+npm install grunt-exec --save-dev
+npm install bootstrap@3 --save
+
+npm install -g nodemon --save-dev
+npm install body-parser --save-dev
+
+npm install express-handlebars --save-dev
+
+
+mkdir views
+//se crea el handlebar inicial

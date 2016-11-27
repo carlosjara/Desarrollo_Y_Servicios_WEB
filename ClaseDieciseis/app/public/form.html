@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AJAX  app</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/validation.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+  			<div class="row">
+			  <div class="col-md-2"></div>
+			  <div class="col-md-3">
+				<h3>Registrate</h3>
+				{{#if hasErrors}}
+					<div class="alert alert-danger">
+					  <strong>{{error}}</strong>
+					</div>				
+				{{/if}}
+			  	<form method="POST" id="form" action="/register">
+			  		<label for="nameField">Nombre</label>
+			  		<input id="nameField" type="text" name="name"class="form-control" placeholder="nombre">
+			  		<br>
+			  		<label for="nameField">Correo</label>
+			  		<input id="nameField" type="email" name="email" class="form-control" placeholder="email@example">
+			  		<br>
+			  	</form>
+			  		<button id="submit" class="btn btn-success">Enviar</button>
+			  </div>
+			  <div class="col-md-5"></div>
+			  <div class="col-md-2"></div>
+			</div>
+		</div>
+	</body>
+</html>

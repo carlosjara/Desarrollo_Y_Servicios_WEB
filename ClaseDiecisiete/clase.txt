@@ -1,0 +1,14 @@
+_____________________________________________________
+Clase Diecisiete
+_____________________________________________________
+Driver de base de datos
+conexion
+Pull connection 
+	-lista de conexiones que se mantienen abiertas, para que no esten pidiendo conexiones
+Mecanismo de uso
+Buscar driver
+	update, query, begin transaction, anothers
+
+	JDBC (Java Data Base Connection)
+	DB.JS (JavaScript)
+

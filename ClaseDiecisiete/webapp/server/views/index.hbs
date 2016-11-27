@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4"><a type="button" href="bookmarks/new" id="add_button" class="btn btn-primary btn-sm">Add new </a></div>
+    <div class="col-md-4"></div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <ul class="list-group">
+            {{#each links}}
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-8">
+                        <a target="_blank" href="{{link}}">{{name}}</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="bookmarks/delete/{{id}}" class="action_button btn btn-danger btn-xs pull-right">remove</a>
+                        <a href="bookmarks/edit/{{id}}" class="action_button btn btn-success btn-xs pull-right">edit</a>
+                    </div>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="col-md-4"></div>
+</div>
